@@ -1,0 +1,12 @@
+syntax = "proto3";
+package example.api_curd.rpc;
+import "api_curd.proto";
+
+service SimpleCrudService3 {
+
+rpc create_res(example.api_curd.cratpro) returns (example.api_curd.List);
+rpc patch_res(example.api_curd.cratpro)  returns (example.api_curd.update);
+rpc get_joke(example.api_curd.Empty) returns (example.api_curd.Response);
+rpc delete_res(example.api_curd.Empty) returns (example.api_curd.dead);
+
+}

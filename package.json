@@ -1,0 +1,30 @@
+{
+  "name": "empy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server/server.js",
+    "subas": "nodemon server/cron/cron-mail.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.6.9",
+    "axios": "^0.27.1",
+    "Base64": "^1.1.0",
+    "dotenv": "^16.0.0",
+    "fs": "^0.0.1-security",
+    "grpc": "^1.24.11",
+    "http-status": "^1.5.0",
+    "mysql2": "^2.3.3",
+    "node-cron": "^3.0.0",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.16",
+    "path": "^0.12.7",
+    "sequelize": "^6.19.0",
+    "sequelize-cli": "^6.4.1"
+  }
+}
